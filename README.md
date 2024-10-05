@@ -6,15 +6,15 @@
  Use **Reactive Gateway** instead of the **Gateway** dependency.
 ```
 
+# Steps👇👇👇
 
+## 1.Dependencies
+- Spring Reactive Web
+- Reactive Gateway
+- Eureka Discovery Client
+- Spring Boot DevTools 
 
-1. Dependencies
-Spring Reactive Web
-Reactive Gateway
-Eureka Discovery Client
-Spring Boot DevTools 
-
-2.main application
+## 2.main application
 ```
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -27,7 +27,7 @@ public class ApiGatewayApplication {
 }
 
 ```
-3.application.properties  file
+## 3.application.properties  file
 ```
 spring.application.name=API_GATEWAY
 server.port=8765
